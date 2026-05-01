@@ -1,16 +1,14 @@
 package com.barash.jobtrackerbackend.model;
 
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-import lombok.RequiredArgsConstructor;
+import lombok.*;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 @Entity
 @Data
+@Builder
 @AllArgsConstructor
 @NoArgsConstructor
 @Table(name = "job_applications")
@@ -28,6 +26,7 @@ public class JobApplication {
     @Column(nullable = false)
     private String jobUrl;
     private LocalDate appliedDate;
+    @Column(columnDefinition = "TEXT")
     private String notes;
 
     @Enumerated(EnumType.STRING)

@@ -1,0 +1,322 @@
+[INFO] Scanning for projects...
+Downloading from central: https://repo.maven.apache.org/maven2/org/cyclonedx/maven-metadata.xml
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/maven-metadata.xml
+Downloading from central: https://repo.maven.apache.org/maven2/io/github/git-commit-id/maven-metadata.xml
+Downloading from central: https://repo.maven.apache.org/maven2/org/flywaydb/maven-metadata.xml
+Progress (1): 234 BProgress (2): 234 B | 243 BProgress (3): 234 B | 243 B | 255 BProgress (4): 234 B | 243 B | 255 B | 249 B                                           Downloaded from central: https://repo.maven.apache.org/maven2/io/github/git-commit-id/maven-metadata.xml (255 B at 500 B/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/cyclonedx/maven-metadata.xml (243 B at 476 B/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/flywaydb/maven-metadata.xml (234 B at 458 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jooq/maven-metadata.xml
+Downloading from central: https://repo.maven.apache.org/maven2/org/liquibase/maven-metadata.xml
+Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/maven-metadata.xml
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/maven-metadata.xml (249 B at 487 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/graalvm/buildtools/maven-metadata.xml
+Progress (1): 242 B                   Downloaded from central: https://repo.maven.apache.org/maven2/org/graalvm/buildtools/maven-metadata.xml (242 B at 6.0 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml
+Progress (1): 375 BProgress (2): 375 B | 398 BProgress (3): 375 B | 398 B | 394 B                                   Downloaded from central: https://repo.maven.apache.org/maven2/org/jooq/maven-metadata.xml (398 B at 8.5 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/maven-metadata.xml (375 B at 8.0 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/liquibase/maven-metadata.xml (394 B at 8.4 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml
+Progress (1): 4.6 kBProgress (1): 9.7 kBProgress (1): 14 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml (14 kB at 298 kB/s)
+Progress (1): 3.1 kBProgress (1): 7.7 kBProgress (1): 12 kB Progress (1): 17 kBProgress (1): 20 kBProgress (1): 21 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml (21 kB at 111 kB/s)
+[INFO] 
+[INFO] ----------< com.barash.jobtrackerbackend:job-tracker-backend >----------
+[INFO] Building job-tracker-backend 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:4.0.6:run (default-cli) > test-compile @ job-tracker-backend >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ job-tracker-backend ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] Copying 0 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.14.1:compile (default-compile) @ job-tracker-backend ---
+[INFO] Recompiling the module because of added or removed source files.
+[INFO] Compiling 20 source files with javac [debug parameters release 17] to target/classes
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by lombok.permit.Permit
+WARNING: Please consider reporting this to the maintainers of class lombok.permit.Permit
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+[INFO] /Users/barashsharma/Desktop/Projects/job-tracker/job-tracker-backend/src/main/java/com/barash/jobtrackerbackend/security/JwtAuthenticationFilter.java: /Users/barashsharma/Desktop/Projects/job-tracker/job-tracker-backend/src/main/java/com/barash/jobtrackerbackend/security/JwtAuthenticationFilter.java uses or overrides a deprecated API.
+[INFO] /Users/barashsharma/Desktop/Projects/job-tracker/job-tracker-backend/src/main/java/com/barash/jobtrackerbackend/security/JwtAuthenticationFilter.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ job-tracker-backend ---
+[INFO] skip non existing resourceDirectory /Users/barashsharma/Desktop/Projects/job-tracker/job-tracker-backend/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.14.1:testCompile (default-testCompile) @ job-tracker-backend ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 1 source file with javac [debug parameters release 17] to target/test-classes
+[INFO] 
+[INFO] <<< spring-boot:4.0.6:run (default-cli) < test-compile @ job-tracker-backend <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:4.0.6:run (default-cli) @ job-tracker-backend ---
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-buildpack-platform/4.0.6/spring-boot-buildpack-platform-4.0.6.jar
+Progress (1): 0.9/332 kBProgress (1): 2.3/332 kBProgress (1): 3.6/332 kBProgress (1): 5.0/332 kBProgress (1): 6.4/332 kBProgress (1): 7.7/332 kBProgress (1): 8.2/332 kBProgress (1): 9.6/332 kBProgress (1): 11/332 kB Progress (1): 12/332 kBProgress (1): 14/332 kBProgress (1): 15/332 kBProgress (1): 16/332 kBProgress (1): 18/332 kBProgress (1): 19/332 kBProgress (1): 21/332 kBProgress (1): 22/332 kBProgress (1): 23/332 kBProgress (1): 25/332 kBProgress (1): 26/332 kBProgress (1): 27/332 kBProgress (1): 29/332 kBProgress (1): 30/332 kBProgress (1): 31/332 kBProgress (1): 33/332 kBProgress (1): 34/332 kBProgress (1): 36/332 kBProgress (1): 37/332 kBProgress (1): 38/332 kBProgress (1): 40/332 kBProgress (1): 41/332 kBProgress (1): 42/332 kBProgress (1): 47/332 kBProgress (1): 51/332 kBProgress (1): 55/332 kBProgress (1): 59/332 kBProgress (1): 64/332 kBProgress (1): 66/332 kBProgress (1): 70/332 kBProgress (1): 74/332 kBProgress (1): 78/332 kBProgress (1): 82/332 kBProgress (1): 87/332 kBProgress (1): 90/332 kBProgress (1): 94/332 kBProgress (1): 99/332 kBProgress (1): 103/332 kBProgress (1): 107/332 kBProgress (1): 111/332 kBProgress (1): 115/332 kBProgress (1): 119/332 kBProgress (1): 123/332 kBProgress (1): 127/332 kBProgress (1): 131/332 kBProgress (1): 135/332 kBProgress (1): 140/332 kBProgress (1): 144/332 kBProgress (1): 148/332 kBProgress (1): 152/332 kBProgress (1): 156/332 kBProgress (1): 161/332 kBProgress (1): 165/332 kBProgress (1): 169/332 kBProgress (1): 173/332 kBProgress (1): 178/332 kBProgress (1): 182/332 kBProgress (1): 186/332 kBProgress (1): 190/332 kBProgress (1): 195/332 kBProgress (1): 199/332 kBProgress (1): 203/332 kBProgress (1): 207/332 kBProgress (1): 224/332 kBProgress (1): 240/332 kBProgress (1): 256/332 kBProgress (1): 262/332 kBProgress (1): 279/332 kBProgress (1): 295/332 kBProgress (1): 311/332 kBProgress (1): 328/332 kBProgress (1): 332 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-buildpack-platform/4.0.6/spring-boot-buildpack-platform-4.0.6.jar (332 kB at 2.0 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-loader-tools/4.0.6/spring-boot-loader-tools-4.0.6.jar
+Progress (1): 3.2/341 kBProgress (1): 20/341 kB Progress (1): 36/341 kBProgress (1): 52/341 kBProgress (1): 69/341 kBProgress (1): 85/341 kBProgress (1): 102/341 kBProgress (1): 118/341 kBProgress (1): 123/341 kBProgress (1): 131/341 kBProgress (1): 139/341 kBProgress (1): 156/341 kBProgress (1): 164/341 kBProgress (1): 180/341 kBProgress (1): 197/341 kBProgress (1): 213/341 kBProgress (1): 229/341 kBProgress (1): 246/341 kBProgress (1): 262/341 kBProgress (1): 279/341 kBProgress (1): 295/341 kBProgress (1): 311/341 kBProgress (1): 328/341 kBProgress (1): 341 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-loader-tools/4.0.6/spring-boot-loader-tools-4.0.6.jar (341 kB at 2.9 MB/s)
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.0.6)
+
+2026-05-02T21:58:25.801+05:30  INFO 61464 --- [job-tracker-backend] [  restartedMain] c.b.j.JobTrackerBackendApplication       : Starting JobTrackerBackendApplication using Java 25.0.2 with PID 61464 (/Users/barashsharma/Desktop/Projects/job-tracker/job-tracker-backend/target/classes started by barashsharma in /Users/barashsharma/Desktop/Projects/job-tracker/job-tracker-backend)
+2026-05-02T21:58:25.802+05:30  INFO 61464 --- [job-tracker-backend] [  restartedMain] c.b.j.JobTrackerBackendApplication       : The following 1 profile is active: "dev"
+2026-05-02T21:58:25.819+05:30  INFO 61464 --- [job-tracker-backend] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-05-02T21:58:25.819+05:30  INFO 61464 --- [job-tracker-backend] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-05-02T21:58:26.030+05:30  INFO 61464 --- [job-tracker-backend] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-02T21:58:26.046+05:30  INFO 61464 --- [job-tracker-backend] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 2 JPA repository interfaces.
+2026-05-02T21:58:26.210+05:30  INFO 61464 --- [job-tracker-backend] [  restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-05-02T21:58:26.215+05:30  INFO 61464 --- [job-tracker-backend] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-02T21:58:26.215+05:30  INFO 61464 --- [job-tracker-backend] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-02T21:58:26.225+05:30  INFO 61464 --- [job-tracker-backend] [  restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 406 ms
+2026-05-02T21:58:26.266+05:30  INFO 61464 --- [job-tracker-backend] [  restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-02T21:58:26.286+05:30  INFO 61464 --- [job-tracker-backend] [  restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-05-02T21:58:26.426+05:30  INFO 61464 --- [job-tracker-backend] [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-02T21:58:26.437+05:30  INFO 61464 --- [job-tracker-backend] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-02T21:58:26.470+05:30  INFO 61464 --- [job-tracker-backend] [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5b0f4651
+2026-05-02T21:58:26.471+05:30  INFO 61464 --- [job-tracker-backend] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-02T21:58:26.495+05:30  INFO 61464 --- [job-tracker-backend] [  restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/jobtracker]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 18.3
+	Default catalog/schema: jobtracker/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-02T21:58:26.819+05:30  INFO 61464 --- [job-tracker-backend] [  restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-02T21:58:26.853+05:30  INFO 61464 --- [job-tracker-backend] [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-02T21:58:26.873+05:30  INFO 61464 --- [job-tracker-backend] [  restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-05-02T21:58:26.948+05:30  INFO 61464 --- [job-tracker-backend] [  restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-05-02T21:58:26.948+05:30  WARN 61464 --- [job-tracker-backend] [  restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-05-02T21:58:26.966+05:30  WARN 61464 --- [job-tracker-backend] [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-02T21:58:27.102+05:30  INFO 61464 --- [job-tracker-backend] [  restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-05-02T21:58:27.104+05:30  INFO 61464 --- [job-tracker-backend] [  restartedMain] c.b.j.JobTrackerBackendApplication       : Started JobTrackerBackendApplication in 1.434 seconds (process running for 1.583)
+2026-05-02T21:59:52.228+05:30  INFO 61464 --- [job-tracker-backend] [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-02T21:59:52.228+05:30  INFO 61464 --- [job-tracker-backend] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-02T21:59:52.229+05:30  INFO 61464 --- [job-tracker-backend] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+Hibernate: select u1_0.id,u1_0.email,u1_0.first_name,u1_0.last_name,u1_0.password from users u1_0 where u1_0.email=?
+Hibernate: insert into users (email,first_name,last_name,password) values (?,?,?,?)
+Hibernate: select u1_0.id,u1_0.email,u1_0.first_name,u1_0.last_name,u1_0.password from users u1_0 where u1_0.email=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.first_name,u1_0.last_name,u1_0.password from users u1_0 where u1_0.email=?
+Hibernate: insert into job_applications (applied_date,company_name,created_at,job_role,job_url,notes,status,updated_at,user_id) values (?,?,?,?,?,?,?,?,?)
+Hibernate: select u1_0.id,u1_0.email,u1_0.first_name,u1_0.last_name,u1_0.password from users u1_0 where u1_0.email=?
+Hibernate: select ja1_0.id,ja1_0.applied_date,ja1_0.company_name,ja1_0.created_at,ja1_0.job_role,ja1_0.job_url,ja1_0.notes,ja1_0.status,ja1_0.updated_at,ja1_0.user_id from job_applications ja1_0 left join users u1_0 on u1_0.id=ja1_0.user_id where u1_0.email=? order by ja1_0.created_at desc
+2026-05-02T22:03:59.529+05:30  INFO 61464 --- [job-tracker-backend] [   File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 26 class path changes (0 additions, 25 deletions, 1 modification)
+2026-05-02T22:03:59.532+05:30  INFO 61464 --- [job-tracker-backend] [       Thread-1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-02T22:03:59.538+05:30  INFO 61464 --- [job-tracker-backend] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-02T22:03:59.541+05:30  INFO 61464 --- [job-tracker-backend] [       Thread-1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-02T22:03:59.544+05:30  INFO 61464 --- [job-tracker-backend] [       Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-05-02T22:03:59.546+05:30  INFO 61464 --- [job-tracker-backend] [       Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.0.6)
+
+2026-05-02T22:03:59.613+05:30  INFO 61464 --- [job-tracker-backend] [  restartedMain] c.b.j.JobTrackerBackendApplication       : Starting JobTrackerBackendApplication using Java 25.0.2 with PID 61464 (/Users/barashsharma/Desktop/Projects/job-tracker/job-tracker-backend/target/classes started by barashsharma in /Users/barashsharma/Desktop/Projects/job-tracker/job-tracker-backend)
+2026-05-02T22:03:59.613+05:30  INFO 61464 --- [job-tracker-backend] [  restartedMain] c.b.j.JobTrackerBackendApplication       : The following 1 profile is active: "dev"
+2026-05-02T22:03:59.680+05:30  INFO 61464 --- [job-tracker-backend] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-02T22:03:59.681+05:30  INFO 61464 --- [job-tracker-backend] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+2026-05-02T22:03:59.739+05:30  INFO 61464 --- [job-tracker-backend] [  restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-05-02T22:03:59.741+05:30  INFO 61464 --- [job-tracker-backend] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-02T22:03:59.741+05:30  INFO 61464 --- [job-tracker-backend] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-02T22:03:59.745+05:30  INFO 61464 --- [job-tracker-backend] [  restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 130 ms
+2026-05-02T22:03:59.770+05:30  INFO 61464 --- [job-tracker-backend] [  restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-02T22:03:59.780+05:30  INFO 61464 --- [job-tracker-backend] [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-02T22:03:59.781+05:30  INFO 61464 --- [job-tracker-backend] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2026-05-02T22:03:59.791+05:30  INFO 61464 --- [job-tracker-backend] [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@22f5f8e9
+2026-05-02T22:03:59.791+05:30  INFO 61464 --- [job-tracker-backend] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2026-05-02T22:03:59.798+05:30  INFO 61464 --- [job-tracker-backend] [  restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/jobtracker]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 18.3
+	Default catalog/schema: jobtracker/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-02T22:03:59.806+05:30  INFO 61464 --- [job-tracker-backend] [  restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-02T22:03:59.806+05:30  INFO 61464 --- [job-tracker-backend] [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-02T22:03:59.819+05:30  WARN 61464 --- [job-tracker-backend] [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-02T22:03:59.874+05:30  WARN 61464 --- [job-tracker-backend] [  restartedMain] .s.a.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: d994ae76-98d9-4e14-b09f-17e1573d9b2c
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-05-02T22:03:59.884+05:30  INFO 61464 --- [job-tracker-backend] [  restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-05-02T22:03:59.930+05:30  INFO 61464 --- [job-tracker-backend] [  restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-05-02T22:03:59.932+05:30  INFO 61464 --- [job-tracker-backend] [  restartedMain] c.b.j.JobTrackerBackendApplication       : Started JobTrackerBackendApplication in 0.333 seconds (process running for 334.41)
+2026-05-02T22:03:59.934+05:30  INFO 61464 --- [job-tracker-backend] [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   ServletWebSecurityAutoConfiguration.EnableWebSecurityConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.security.config.annotation.web.configuration.EnableWebSecurity' (OnClassCondition)
+      - @ConditionalOnMissingBean (names: springSecurityFilterChain; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   ServletWebSecurityAutoConfiguration.SecurityFilterChainConfiguration matched:
+      - AllNestedConditions 2 matched 0 did not; NestedCondition on DefaultWebSecurityCondition.Beans @ConditionalOnMissingBean (types: org.springframework.security.web.SecurityFilterChain; SearchStrategy: all) did not find any beans; NestedCondition on DefaultWebSecurityCondition.Classes @ConditionalOnClass found required classes 'org.springframework.security.web.SecurityFilterChain', 'org.springframework.security.config.annotation.web.builders.HttpSecurity' (DefaultWebSecurityCondition)
+
+   UserDetailsServiceAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.security.authentication.AuthenticationManager' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+      - AnyNestedCondition 1 matched 2 did not; NestedCondition on MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured.PasswordConfigured @ConditionalOnProperty (spring.security.user.password) did not find property 'spring.security.user.password'; NestedCondition on MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured.NameConfigured @ConditionalOnProperty (spring.security.user.name) did not find property 'spring.security.user.name'; NestedCondition on MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured.MissingAlternative @ConditionalOnMissingClass did not find unwanted classes 'org.springframework.security.oauth2.client.registration.ClientRegistrationRepository', 'org.springframework.security.oauth2.server.resource.introspection.OpaqueTokenIntrospector', 'org.springframework.security.saml2.provider.service.registration.RelyingPartyRegistrationRepository' (MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured)
+      - @ConditionalOnMissingBean (types: org.springframework.security.authentication.AuthenticationManager,org.springframework.security.authentication.AuthenticationProvider,org.springframework.security.core.userdetails.UserDetailsService,org.springframework.security.authentication.AuthenticationManagerResolver,org.springframework.security.oauth2.jwt.JwtDecoder; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+    None
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2026-05-02T22:04:37.543+05:30  INFO 61464 --- [job-tracker-backend] [   File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 25 class path changes (25 additions, 0 deletions, 0 modifications)
+2026-05-02T22:04:37.544+05:30  INFO 61464 --- [job-tracker-backend] [       Thread-5] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-02T22:04:37.546+05:30  INFO 61464 --- [job-tracker-backend] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-02T22:04:37.547+05:30  INFO 61464 --- [job-tracker-backend] [       Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-02T22:04:37.548+05:30  INFO 61464 --- [job-tracker-backend] [       Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2026-05-02T22:04:37.549+05:30  INFO 61464 --- [job-tracker-backend] [       Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.0.6)
+
+2026-05-02T22:04:37.592+05:30  INFO 61464 --- [job-tracker-backend] [  restartedMain] c.b.j.JobTrackerBackendApplication       : Starting JobTrackerBackendApplication using Java 25.0.2 with PID 61464 (/Users/barashsharma/Desktop/Projects/job-tracker/job-tracker-backend/target/classes started by barashsharma in /Users/barashsharma/Desktop/Projects/job-tracker/job-tracker-backend)
+2026-05-02T22:04:37.592+05:30  INFO 61464 --- [job-tracker-backend] [  restartedMain] c.b.j.JobTrackerBackendApplication       : The following 1 profile is active: "dev"
+2026-05-02T22:04:37.631+05:30  INFO 61464 --- [job-tracker-backend] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-02T22:04:37.634+05:30  INFO 61464 --- [job-tracker-backend] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 2 JPA repository interfaces.
+2026-05-02T22:04:37.665+05:30  INFO 61464 --- [job-tracker-backend] [  restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-05-02T22:04:37.665+05:30  INFO 61464 --- [job-tracker-backend] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-02T22:04:37.665+05:30  INFO 61464 --- [job-tracker-backend] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-02T22:04:37.668+05:30  INFO 61464 --- [job-tracker-backend] [  restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 75 ms
+2026-05-02T22:04:37.678+05:30  INFO 61464 --- [job-tracker-backend] [  restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-02T22:04:37.685+05:30  INFO 61464 --- [job-tracker-backend] [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-02T22:04:37.686+05:30  INFO 61464 --- [job-tracker-backend] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2026-05-02T22:04:37.691+05:30  INFO 61464 --- [job-tracker-backend] [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection org.postgresql.jdbc.PgConnection@75dbd800
+2026-05-02T22:04:37.691+05:30  INFO 61464 --- [job-tracker-backend] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2026-05-02T22:04:37.696+05:30  INFO 61464 --- [job-tracker-backend] [  restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/jobtracker]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 18.3
+	Default catalog/schema: jobtracker/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-02T22:04:37.725+05:30  INFO 61464 --- [job-tracker-backend] [  restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-02T22:04:37.747+05:30  INFO 61464 --- [job-tracker-backend] [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-02T22:04:37.774+05:30  INFO 61464 --- [job-tracker-backend] [  restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-05-02T22:04:37.774+05:30  WARN 61464 --- [job-tracker-backend] [  restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-05-02T22:04:37.783+05:30  WARN 61464 --- [job-tracker-backend] [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-02T22:04:37.837+05:30  INFO 61464 --- [job-tracker-backend] [  restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-05-02T22:04:37.838+05:30  INFO 61464 --- [job-tracker-backend] [  restartedMain] c.b.j.JobTrackerBackendApplication       : Started JobTrackerBackendApplication in 0.253 seconds (process running for 372.316)
+2026-05-02T22:04:37.838+05:30  INFO 61464 --- [job-tracker-backend] [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+    None
+
+
+Negative matches:
+-----------------
+
+   ServletWebSecurityAutoConfiguration.EnableWebSecurityConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (names: springSecurityFilterChain; SearchStrategy: all) found beans named springSecurityFilterChain (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.security.config.annotation.web.configuration.EnableWebSecurity' (OnClassCondition)
+
+   ServletWebSecurityAutoConfiguration.SecurityFilterChainConfiguration:
+      Did not match:
+         - AllNestedConditions 1 matched 1 did not; NestedCondition on DefaultWebSecurityCondition.Beans @ConditionalOnMissingBean (types: org.springframework.security.web.SecurityFilterChain; SearchStrategy: all) found beans of type 'org.springframework.security.web.SecurityFilterChain' securityFilterChain; NestedCondition on DefaultWebSecurityCondition.Classes @ConditionalOnClass found required classes 'org.springframework.security.web.SecurityFilterChain', 'org.springframework.security.config.annotation.web.builders.HttpSecurity' (DefaultWebSecurityCondition)
+
+   UserDetailsServiceAutoConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.security.authentication.AuthenticationManager,org.springframework.security.authentication.AuthenticationProvider,org.springframework.security.core.userdetails.UserDetailsService,org.springframework.security.authentication.AuthenticationManagerResolver,org.springframework.security.oauth2.jwt.JwtDecoder; SearchStrategy: all) found beans of type 'org.springframework.security.authentication.AuthenticationManager' authenticationManager and found beans of type 'org.springframework.security.core.userdetails.UserDetailsService' userDetailsService and found beans of type 'org.springframework.security.authentication.AuthenticationProvider' authenticationProvider (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.security.authentication.AuthenticationManager' (OnClassCondition)
+         - found 'session' scope (OnWebApplicationCondition)
+         - AnyNestedCondition 1 matched 2 did not; NestedCondition on MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured.PasswordConfigured @ConditionalOnProperty (spring.security.user.password) did not find property 'spring.security.user.password'; NestedCondition on MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured.NameConfigured @ConditionalOnProperty (spring.security.user.name) did not find property 'spring.security.user.name'; NestedCondition on MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured.MissingAlternative @ConditionalOnMissingClass did not find unwanted classes 'org.springframework.security.oauth2.client.registration.ClientRegistrationRepository', 'org.springframework.security.oauth2.server.resource.introspection.OpaqueTokenIntrospector', 'org.springframework.security.saml2.provider.service.registration.RelyingPartyRegistrationRepository' (MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  08:09 min
+[INFO] Finished at: 2026-05-02T22:06:32+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.springframework.boot:spring-boot-maven-plugin:4.0.6:run (default-cli) on project job-tracker-backend: Process terminated with exit code: 137 -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
